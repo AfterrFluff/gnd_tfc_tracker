@@ -15,6 +15,12 @@ Hover over the record that you'd want to have the key bind affect.
 - T - Is Taxiing
 - H - Handed Off
 
+Alternatively, you may use numbers for the toggle columns.
+- 1 - ATIS
+- 2 - Cleared
+- 3 - Is Taxiing
+- 4 - Handed Off
+
 ## Additional Information
 This tool was developed entirely by ChatGPT 4o; it's also designed to be used for KOAK_GND VATUSA controlling (Again, for personal use).
 
