@@ -71,7 +71,7 @@ input[type="checkbox"]:checked {
     border-color: #28a745;
 }
 
-.new-record-btn, .delete-btn {
+.new-record-btn, .delete-btn, .delete-all-btn {
     background-color: #af52de;
     color: white;
     padding: 8px 18px;
@@ -84,7 +84,7 @@ input[type="checkbox"]:checked {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.new-record-btn:hover, .delete-btn:hover {
+.new-record-btn:hover, .delete-btn:hover, .delete-all-btn:hover {
     background-color: #922bcc;
     transform: scale(1.05);
 }
@@ -95,18 +95,21 @@ input[type="checkbox"]:checked {
     display: block;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: #ffffff44; /* Text color of the footer */
-    padding: 5px;
-}
-
 .delete-btn:hover {
     background-color: #c7323e;
+}
+
+.delete-all-btn {
+    background-color: #e63946;
+    margin-left: 10px;
+}
+
+.delete-all-btn:hover {
+    background-color: #c7323e;
+}
+
+#slightInvisText {
+    color: rgba(255, 255, 255, 0.336);
 }
 
 #noRecordsMessage {
@@ -114,6 +117,10 @@ footer {
     margin-top: 20px;
     font-size: 1.2rem;
     animation: fadeIn 0.5s ease-in-out;
+}
+
+.buttons-container {
+    margin-top: 20px;
 }
 
 @keyframes fadeIn {
