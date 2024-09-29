@@ -26,4 +26,5 @@ This tool was developed entirely by ChatGPT 4o; it's also designed to be used fo
 
 Contributors: 
 - @dolphin_ken (Discord)
+
 Link: https://afterrfluff.github.io/gnd_tfc_tracker/
