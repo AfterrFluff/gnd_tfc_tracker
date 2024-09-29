@@ -1,6 +1,22 @@
 // Load records from localStorage on page load
 document.addEventListener('DOMContentLoaded', function() {
     loadRecords();
+
+    // Search functionality
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('input', () => {
+        const filter = searchInput.value.toUpperCase();
+        const rows = document.querySelectorAll('#atcTable tbody tr');
+
+        rows.forEach(row => {
+            const callsign = row.querySelector('td:first-child input').value.toUpperCase();
+            if (callsign.includes(filter)) {
+                row.style.display = ''; // Show row
+            } else {
+                row.style.display = 'none'; // Hide row
+            }
+        });
+    });
 });
 
 // Function to add a new record
