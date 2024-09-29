@@ -24,7 +24,7 @@ Alternatively, you may use numbers for the toggle columns.
 ## Additional Information
 This tool was developed entirely by ChatGPT 4o; it's also designed to be used for KOAK_GND VATUSA controlling (Again, for personal use).
 
-Contributors: 
-- @dolphin_ken (Discord)
+### Contributors
+- @dolphin_kden (Discord)
 
 Link: https://afterrfluff.github.io/gnd_tfc_tracker/
