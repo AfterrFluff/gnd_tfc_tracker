@@ -95,6 +95,16 @@ input[type="checkbox"]:checked {
     display: block;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff44; /* Text color of the footer */
+    padding: 5px;
+}
+
 .delete-btn:hover {
     background-color: #c7323e;
 }
