@@ -22,7 +22,7 @@ Alternatively, you may use numbers for the toggle columns.
 - 4 - Handed Off
 
 ## Additional Information
-This tool was developed entirely by ChatGPT 4o; it's also designed to be used for KOAK_GND VATUSA controlling (Again, for personal use).
+This tool was developed entirely by ChatGPT 4o with assistance from contributors to add specific features; it's also designed to be used for KOAK_GND VATUSA controlling (Again, for personal use).
 
 ### Contributors
 - @dolphin_kden (Discord)
